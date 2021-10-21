@@ -3,7 +3,9 @@ The dataset contaisn onformation about diabetes patients and their attributes su
 The data is insoected nad found to be containg no null vlaues, so there is no step of imputing the data. 
 Later the data is split into training and test sets. 652 samples in training set and 116 samples in the test set.
 Pipeline is created for the training data.
-Classification report is generated based on previously created pipeline. As we see from the precision and the recall scores the Precision, recall and f1-score for the 0's tend to be good where as the for the 1's tend to less and suprising very less for the recall and the f1scores are less than 0.5 which implies to not a good score. These decreases the overall score of accuracy because of the 1's
+Classification report is generated based on previously created pipeline. 
+As we see from the precision and the recall scores the Precision, recall and f1-score for the 0's tend to be good where as the for the 1's tend to less and suprising very less for the recall and the f1scores are less than 0.5 which implies to not a good score. 
+These decreases the overall score of accuracy because of the 1's
 The probability of the binary outcome is predicted using ROC curve.
 A logistic Regression pipeline is created using the above pipeline.
 Grid search cross validation is performed using logistic regression model on the above created pipeline.
